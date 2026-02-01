@@ -22,7 +22,8 @@ public class Bai2_ChuviDT {
 		int chieuRong= scanner.nextInt();
 		int chuVi=(chieuDai+chieuRong)*2;
 		int dienTich=chieuDai*chieuRong;
-		System.out.printf("Chu vi là: %d, Diện tích là: %d, cạnh nhỏ là: %d",chuVi,dienTich,chieuRong);
+		int canhNhoNhat=Math.min(chieuDai, chieuRong);
+		System.out.printf("Chu vi là: %d, Diện tích là: %d, cạnh nhỏ là: %d",chuVi,dienTich,canhNhoNhat);
 	}
 
 }
